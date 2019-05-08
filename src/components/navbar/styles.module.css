@@ -1,0 +1,20 @@
+:local(.wrapper){
+  padding: 24px 0;
+}
+
+:local(.logo){
+  width: 30px
+}
+
+@media screen and (min-width: 20rem) {
+  
+  :local(.logo){
+    width: 40px
+  }
+}
+
+@media screen and (min-width: 45rem) {
+  :local(.logo){
+    width: 60px
+  }
+}

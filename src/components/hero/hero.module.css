@@ -1,0 +1,97 @@
+
+:local(.Wrapper){
+    position: absolute;
+    width: 100%;
+    top: 75px;
+    color: #fff;
+}
+
+:local(.imageWrapper){
+margin-top: -77px;
+}
+
+:local(.imageWrapper img){
+    width: 100%;
+}
+
+
+:local(.desk){
+    object-fit: contain;
+    max-width: 100%;
+    display: none;
+    
+}
+
+
+:local(.title){
+    font-size: 16px;
+}
+
+:local(.subtitle){
+    font-size: 14px;
+}
+
+
+@media screen and (min-width: 20rem) {
+    :local(.Wrapper){
+        margin-top: 0px;
+    }
+    
+    :local(.title){
+        font-size: 16px;
+    }
+    
+    :local(.subtitle){
+        font-size: 14px;
+    }
+    
+}
+
+@media screen and (min-width: 45rem) {
+    :local(.title){
+        font-size: 36px;
+    }
+    
+    :local(.subtitle){
+        font-size: 18px;
+    }
+    
+    :local(.desk){
+         display: initial;
+    }
+    
+}
+
+
+@media screen and (min-width: 64rem) {
+    
+    :local(.title){
+        font-size: 45px;
+    }
+    
+    :local(.subtitle){
+        font-size: 24px;
+    }
+    
+    :local(.desk){
+        display: initial;
+    }
+}
+
+@media screen and (min-width: 80rem) {
+    :local(.Wrapper){
+        margin-top: 90px;
+    }
+    
+    :local(.title){
+        font-size: 45px;
+    }
+    
+    :local(.subtitle){
+        font-size: 24px;
+    }
+    
+    :local(.desk){
+        display: initial;
+    }
+}

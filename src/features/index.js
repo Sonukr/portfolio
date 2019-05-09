@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Hero } from '../components/hero';
 import { Skills } from '../components/skills';
+import { WorkWith } from '../components/workWith';
 
 export class Home extends Component {
 
@@ -9,6 +10,7 @@ export class Home extends Component {
             <div>
                 <Hero/>
                 <Skills/>
+                <WorkWith/>
             </div>
 
          );

@@ -21,7 +21,7 @@ font-size: 48px;
 
 :local(.skillListSecondary a){
   text-decoration: none;
-  font-size: 40px;
+  font-size: 32px;
   text-align: center;
   padding: 10px;
   
@@ -29,10 +29,10 @@ font-size: 48px;
 
 @media screen and (min-width: 45rem) {
   :local(.skillListPrimary a){
-    text-decoration: none;
     font-size: 80px;
-    text-align: center;
-    padding: 8px;
-    
+  }
+  
+  :local(.skillListSecondary a){
+    font-size: 40px;
   }
 }

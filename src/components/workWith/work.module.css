@@ -4,5 +4,51 @@
 }
 
 :local(.listItem){
-  width: 100%;
+  width: 200px;
+  -webkit-filter: sepia(1) grayscale(1);
+  transition: -webkit-filter 0.20s;
+}
+
+:local(.imageWrapper) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+  cursor: pointer;
+  color: #fff;
+  transition: -webkit-filter 0.20s;
+}
+
+:local(.imageWrapper:hover) {
+ text-decoration: none;
+}
+
+:local(.imageWrapper:hover .listItem){
+  -webkit-filter: grayscale(0);
+  transition: -webkit-filter 0.20s;
+}
+
+
+
+:local(.zeta){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background: rgba(51, 51, 51, 0.64);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  text-decoration: none;
+}
+:local(.zeta:hover){
+  background: #393c5b;
+  text-decoration: none;
+  color: #fff;
+}
+
+:local(.zeta p){
+  color: #fff;
+  margin: 0;
+  font-size: 80px;
 }

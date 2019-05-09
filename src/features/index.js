@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Button } from 'reactstrap';
 import { Hero } from '../components/hero';
+import { Skills } from '../components/skills';
 
 export class Home extends Component {
 
@@ -8,6 +8,7 @@ export class Home extends Component {
         return (
             <div>
                 <Hero/>
+                <Skills/>
             </div>
 
          );

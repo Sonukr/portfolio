@@ -26,7 +26,7 @@ export class Hero extends Component {
                               I am Sonu Kumar
                             </h3>
                             <p className={styles.subtitle}>
-                              <b>Front-end/UI Develoepr </b> from India.
+                              <b>Front-end/UI Developer </b> from India.
                             </p>
                             <div className={styles.linksWrapper}>
                               <a href="https://github.com/sonukr" target="_blank" rel="noopener noreferrer" className={classnames(styles.linkItem, styles.github)} title="Github">

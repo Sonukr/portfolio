@@ -9,7 +9,6 @@ export class WorkWith extends Component {
     return (
       <div className={classnames(styles.wrapper, 'text-center')}>
         <div className="container">
-          
           <h2>Big to small</h2>
           <p>I've worked with 'em all.</p>
           <div className={styles.listWrapper}>

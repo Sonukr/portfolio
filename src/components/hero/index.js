@@ -8,7 +8,6 @@ import {NavBar} from '../navbar/header';
 
 export class Hero extends Component {
     render() {
-      console.log(styles)
         return (
             <div className={'position-relative'}>
               <NavBar/>

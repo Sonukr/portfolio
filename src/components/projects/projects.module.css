@@ -1,4 +1,35 @@
 :local(.wrapper) {
-    background-color: #F4F9FD;
+    background-color: #fff;
     padding: 24px 0;
   }
+
+:local(.projectItem){
+  box-shadow: 0 4px 15px 0 rgba(7,42,68,.1);
+  border: none;
+  transition: .2s;
+  font-family: Poppins;
+  font-size: 16px;
+  color: #171c34;
+  height: 100%;
+}
+
+:local(.projectItem:hover){
+  box-shadow: 0 0 3px 0 rgba(60,60,60,.25);
+  color: #171c34;
+  text-decoration: none;
+}
+
+:local(.projectItem hr){
+  
+  margin-top: 1px;
+}
+
+:local(.details){
+  padding: 8px;
+}
+:local(.tags ){
+  margin-bottom: 16px;
+}
+:local(.tags span){
+  margin-right: 8px;
+}

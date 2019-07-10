@@ -35,7 +35,7 @@ export const data =[
           ' Offline Health Store.',
         tags:[
           'Node.js','Express.js','Mysql','AWS S3', 'React.js', 'Redux.js',
-            'Javascript', 'CSS3', 'HTML5', 'Bootstrap'
+            'Javascript', 'ES6', 'CSS3', 'HTML5', 'Bootstrap'
         ]
     },
     {
@@ -52,7 +52,7 @@ export const data =[
         url: 'https://www.greyloft.com/',
         title: 'Greyloft',
         description:'This is description.',
-        tags:['Javascript','Jquery', 'CSS3', 'HTML5', 'Bootstrap', ]
+        tags:['Javascript', 'ES6','Jquery', 'CSS3', 'HTML5', 'Bootstrap', ]
     },
     {
         id: 4,
@@ -104,8 +104,77 @@ export const data =[
         title: 'Quidli',
         description:'This is description.',
         tags:[
-          'React.js', 'Redux.js', 'Thunk', 'SCSS', 'Javascript', 'CSS3',
+          'React.js', 'Redux.js', 'Thunk', 'SCSS', 'Javascript', 'ES6', 'CSS3',
             'HTML5', 'Bootstrap'
+        ]
+    },
+    {
+        id: 7,
+        name: '9Stacks',
+        images: [
+            'https://screenshotdata.s3.amazonaws.com/9stacks/stack_1.png',
+            'https://screenshotdata.s3.amazonaws.com/9stacks/stack_2.png',
+            'https://screenshotdata.s3.amazonaws.com/9stacks/stack_3.png',
+            'https://screenshotdata.s3.amazonaws.com/9stacks/stack_4.png',
+            'https://screenshotdata.s3.amazonaws.com/9stacks/stack_5.png',
+        ],
+        url: 'https://www.9stacks.com/',
+        title: '9Stacks',
+        description:'This is description.',
+        tags:[
+          'Angular 4', 'SCSS', 'Javascript', 'CSS3',
+            'HTML5', 'Material Design'
+        ]
+    },
+    {
+        id: 8,
+        name: 'URL Shortener',
+        images: [
+            'https://screenshotdata.s3.amazonaws.com/sonukr/url/u_1.png',
+            'https://screenshotdata.s3.amazonaws.com/sonukr/url/u_2.png'
+        ],
+        url: 'http://url.sonukr.me/',
+        title: 'URL Shortener',
+        description:'This is description.',
+        tags:[
+            'Node.js', 'Express.js', 'MongoDB', 'Mongo Lab', 'Javascript', 'CSS3',
+            'HTML5', 'Bootstrap'
+        ]
+    },
+    {
+        id: 8,
+        name: 'spinndle',
+        images: [
+            'https://screenshotdata.s3.amazonaws.com/spinndle/spinndle.png'
+        ],
+        url: 'https://app.spinndle.com/',
+        title: 'Spinndle',
+        description:'This is description.',
+        tags:[
+            'React.js','Redux.js','Thunk','Javascript', 'ES6', 'CSS3', 'ReactStrap',
+            'HTML5', 'Bootstrap'
+        ]
+    },
+    {
+        id: 8,
+        name: 'Zinier',
+        images: [
+            'https://screenshotdata.s3.amazonaws.com/zinier/z_1.png',
+            'https://screenshotdata.s3.amazonaws.com/zinier/z_2.png',
+            'https://screenshotdata.s3.amazonaws.com/zinier/z_3.png',
+            'https://screenshotdata.s3.amazonaws.com/zinier/z_4.png',
+            'https://screenshotdata.s3.amazonaws.com/zinier/z_5.png',
+            'https://screenshotdata.s3.amazonaws.com/zinier/z_6.png',
+            'https://screenshotdata.s3.amazonaws.com/zinier/z_7.png',
+            'https://screenshotdata.s3.amazonaws.com/zinier/z_8.png',
+            'https://screenshotdata.s3.amazonaws.com/zinier/z_9.png',
+        ],
+        url: 'https://www.zinier.com/',
+        title: 'Zinier',
+        description:'This is description.',
+        tags:[
+            'React.js','Redux.js','Redux-saga','Javascript', 'ES6',
+            'CSS3', 'ReactStrap','HTML5', 'Bootstrap'
         ]
     }
 ]

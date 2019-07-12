@@ -3,7 +3,7 @@
 export const data =[
     {
         id: 1,
-        name: 'Easyinspections',
+        name: 'Easyinspection',
         images: [
             'https://screenshotdata.s3.amazonaws.com/easyinspections/ei_1.png',
             'https://screenshotdata.s3.amazonaws.com/easyinspections/ei_2.png',
@@ -14,8 +14,8 @@ export const data =[
             'https://screenshotdata.s3.amazonaws.com/easyinspections/ei_7.png'
         ],
         url: 'https://easyinspection.co/',
-        title: 'Easyinspections',
-        description:'Easyinspections is a home & property inspection software' +
+        title: 'Easyinspection',
+        description:'Easyinspection is a home & property inspection software' +
           ' helps property managers & real estate agents save time, grow their' +
           ' business & manage their property portfolio efficiently.',
         tags:['React.js', 'Javascript', 'SCSS', 'CSS3', 'HTML5', 'Bootstrap', ]

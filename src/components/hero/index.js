@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 import classnames from 'classnames';
-import desk from './desk.svg'
-import bgc from './Hero.svg';
+import desk from './images/desk.svg'
+import bgc from './images/Hero.svg';
+import projects from './images/projects.svg';
+import company from './images/company.svg';
+import house from './images/house.svg';
+import skill from './images/skill.svg'
+import git from './images/git.svg'
 import styles from './hero.module.css';
 import {NavBar} from '../navbar/header';
 
@@ -9,7 +14,7 @@ import {NavBar} from '../navbar/header';
 export class Hero extends Component {
     render() {
         return (
-            <div className={'position-relative'}>
+            <div className={'position-relative'} id={'hero'}>
               <NavBar/>
                 <div className={styles.imageWrapper}>
                   <img src={bgc} alt=""/>
@@ -48,6 +53,40 @@ export class Hero extends Component {
                         </div>
                         <div className="col-md-6 col-sm-6 col-xs-6 text-right">
                           <img src={desk} alt="logo" className={styles.desk}/>
+                        </div>
+                        <div className={styles.menu}>
+                          <ul className={styles.menuList}>
+                            <li className={styles.menuListItem}>
+                              <a href="#hero">
+                                <img src={house} alt=""/>
+                                <p>Home</p>
+                              </a>
+                            </li>
+                            <li className={styles.menuListItem}>
+                              <a href="#skills">
+                                <img src={skill} alt=""/>
+                                <p>Skills</p>
+                              </a>
+                            </li>
+                            <li className={styles.menuListItem}>
+                              <a href="#work">
+                                <img src={company} alt=""/>
+                                <p>Org</p>
+                              </a>
+                            </li>
+                            <li className={styles.menuListItem}>
+                              <a href="#projects">
+                                <img src={projects} alt=""/>
+                                <p>Projects</p>
+                              </a>
+                            </li>
+                            <li className={styles.menuListItem}>
+                              <a href="#github">
+                                <img src={git} alt=""/>
+                                <p>GitHub</p>
+                              </a>
+                            </li>
+                          </ul>
                         </div>
                       </div>
                     </div>

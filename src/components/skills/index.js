@@ -6,7 +6,7 @@ import classnames from 'classnames';
 export class Skills extends Component {
   render() {
     return (
-      <div className={'container mb-5'}>
+      <div className={'container mb-5'} id={'skills'}>
 
         <div className="row">
           <div className="col-md-10 offset-md-1 text-center mb-4 mt-4">

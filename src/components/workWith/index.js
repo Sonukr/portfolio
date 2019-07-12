@@ -9,7 +9,7 @@ export class WorkWith extends Component {
   render() {
     shuffleArray(data)
     return (
-      <div className={classnames(styles.wrapper, 'text-center mb-4')}>
+      <div className={classnames(styles.wrapper, 'text-center mb-4')} id={'work'}>
         <div className="container">
           <h2>Big to small</h2>
           <p>I've worked with 'em all.</p>

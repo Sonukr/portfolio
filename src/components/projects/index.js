@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Suspense } from 'react';
 import styles from './projects.module.css';
 import classnames from 'classnames';
 import { UncontrolledCarousel } from 'reactstrap';
@@ -17,11 +17,15 @@ export class Projects extends Component {
                 items.push(obj)
             }
             return (
-              <UncontrolledCarousel items={items} indicators={false}/>
+                <Suspense fallback={'Loading...'}>
+                    <UncontrolledCarousel items={items} indicators={false}/>
+                </Suspense>
             )
         }
         return(
-          <img className="card-img-top" src={images[0]}/>
+            <Suspense fallback={'Loading...'}>
+                <img className="card-img-top" src={images[0]}/>
+            </Suspense>
         )
     };
 

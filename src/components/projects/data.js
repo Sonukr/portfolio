@@ -145,7 +145,7 @@ export const data = [
             'Bootstrap'
         ]
     }, {
-        id: 8,
+        id: 9,
         name: 'Zinier',
         images: [
             'https://screenshotdata.s3.amazonaws.com/zinier/z_1.png',

@@ -17,6 +17,10 @@ export class Skills extends Component {
                  className={' '}>
                 <i className="devicon-react-original colored"></i>
               </a>
+              <a href="https://redux.js.org/" target="_blank" rel="noopener noreferrer"
+                 className={' '}>
+                <i class="devicon-redux-original colored"></i>
+              </a>
               <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer"
                  className={' '}>
                 <i className="devicon-javascript-plain colored"></i>

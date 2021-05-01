@@ -29,7 +29,7 @@ font-size: 48px;
 
 @media screen and (min-width: 45rem) {
   :local(.skillListPrimary a){
-    font-size: 80px;
+    font-size: 70px;
   }
   
   :local(.skillListSecondary a){

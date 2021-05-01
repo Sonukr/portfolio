@@ -191,7 +191,6 @@
     :local(.subtitle){
         font-size: 24px;
     }
-    :local(.menu),
     :local(.desk){
         display: initial;
     }
